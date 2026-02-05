@@ -3,7 +3,7 @@ import { env } from '@/env.mjs';
 export const siteConfig = {
   title: 'Vijaypal Singh Rathore | Full-Stack Developer',
   description:
-    "Enthusiastic B.Tech student in Data Science and AI at IIIT Dharwad, building full-stack web and mobile applications with expertise in React, Next.js, Node.js, React Native, and TypeScript.",
+    'Enthusiastic B.Tech student in Data Science and AI at IIIT Dharwad, building full-stack web and mobile applications with expertise in React, Next.js, Node.js, React Native, and TypeScript.',
   keywords: [
     'Vijaypal Singh Rathore',
     'Full-Stack Developer',
@@ -28,4 +28,3 @@ export const siteConfig = {
   url: env.SITE_URL || 'https://example.com',
   googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || '',
 };
-

@@ -69,15 +69,23 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/docs.jpeg',
+    image: '/images/react-native.png',
     title: 'DocuAI: Smart Medical Assistant',
     description:
       'Mobile app that records doctor-patient conversations, uses Whisper AI for transcription, OCR for medical reports, and Gemini AI for diagnosis analysis.',
-    technologies: ['React Native', 'TypeScript', 'Flask', 'Whisper AI', 'Gemini API'],
+    technologies: [
+      'React Native',
+      'TypeScript',
+      'Flask',
+      'Whisper AI',
+      'Gemini API',
+    ],
     links: {
       preview: '',
-      github: 'https://github.com/DataScience-ArtificialIntelligence/doctor-assistant',
-      githubApi: 'https://api.github.com/repos/DataScience-ArtificialIntelligence/doctor-assistant',
+      github:
+        'https://github.com/DataScience-ArtificialIntelligence/doctor-assistant',
+      githubApi:
+        'https://api.github.com/repos/DataScience-ArtificialIntelligence/doctor-assistant',
     },
   },
 ] as const;
@@ -150,11 +158,30 @@ export const technicalSkillsData = [
   },
   {
     category: 'Frontend Development',
-    skills: ['HTML5', 'CSS3', 'React', 'Next.js', 'Redux', 'Tailwind CSS', 'shadcn/ui'],
+    skills: [
+      'HTML5',
+      'CSS3',
+      'React',
+      'Next.js',
+      'Redux',
+      'Tailwind CSS',
+      'shadcn/ui',
+    ],
   },
   {
     category: 'Backend Development',
-    skills: ['Node.js', 'Express.js', 'FastAPI', 'MongoDB', 'PostgreSQL', 'Prisma ORM', 'Redis', 'RESTful APIs', 'Socket.io', 'WebSocket'],
+    skills: [
+      'Node.js',
+      'Express.js',
+      'FastAPI',
+      'MongoDB',
+      'PostgreSQL',
+      'Prisma ORM',
+      'Redis',
+      'RESTful APIs',
+      'Socket.io',
+      'WebSocket',
+    ],
   },
   {
     category: 'Mobile Development',
@@ -162,15 +189,39 @@ export const technicalSkillsData = [
   },
   {
     category: 'DevOps & Cloud',
-    skills: ['Docker', 'Git', 'GitHub', 'Vercel', 'Netlify', 'Firebase', 'Appwrite', 'Cloudinary', 'MongoDB Atlas'],
+    skills: [
+      'Docker',
+      'Git',
+      'GitHub',
+      'Vercel',
+      'Netlify',
+      'Firebase',
+      'Appwrite',
+      'Cloudinary',
+      'MongoDB Atlas',
+    ],
   },
   {
     category: 'AI/ML Tools',
-    skills: ['Google Gemini API', 'Sarvam AI', 'Manim', 'MoviePy', 'TensorFlow (basics)'],
+    skills: [
+      'Google Gemini API',
+      'Sarvam AI',
+      'Manim',
+      'MoviePy',
+      'TensorFlow (basics)',
+    ],
   },
   {
     category: 'Authentication & Security',
-    skills: ['JWT (custom implementation)', 'OAuth', 'NextAuth.js', 'Clerk', 'Resend', 'Nodemailer', 'OTP Verification'],
+    skills: [
+      'JWT (custom implementation)',
+      'OAuth',
+      'NextAuth.js',
+      'Clerk',
+      'Resend',
+      'Nodemailer',
+      'OTP Verification',
+    ],
   },
   {
     category: 'Cybersecurity Tools',
@@ -178,10 +229,21 @@ export const technicalSkillsData = [
   },
   {
     category: 'Core Concepts & Problem Solving',
-    skills: ['Data Structures & Algorithms', 'System Design', 'Microservices', 'API Design', '5-star C rating on HackerRank', 'Active on LeetCode'],
+    skills: [
+      'Data Structures & Algorithms',
+      'System Design',
+      'Microservices',
+      'API Design',
+      '5-star C rating on HackerRank',
+      'Active on LeetCode',
+    ],
   },
   {
     category: 'Certifications',
-    skills: ['HackerRank (CSS, JavaScript)', 'Lifology Global Fellow', 'C-DAC Cybersecurity Certificate'],
+    skills: [
+      'HackerRank (CSS, JavaScript)',
+      'Lifology Global Fellow',
+      'C-DAC Cybersecurity Certificate',
+    ],
   },
 ] as const;
