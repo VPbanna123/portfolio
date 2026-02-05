@@ -1,8 +1,4 @@
-import Link from 'next/link';
-
-import { buttonVariants } from '@/components/button';
 import { Icons } from '@/components/icons';
-import { cn } from '@/lib/utils';
 
 export const links = [
   {
@@ -37,7 +33,14 @@ export const projectsData = [
     title: 'KrishiSakhi',
     description:
       'A full-stack agricultural platform with cross-platform web (Next.js) and mobile app (React Native/Expo), featuring real-time chat, AI chatbot, e-commerce marketplace, and government schemes checker.',
-    technologies: ['Next.js', 'React Native', 'Node.js', 'MongoDB', 'Socket.io', 'Cloudinary'],
+    technologies: [
+      'Next.js',
+      'React Native',
+      'Node.js',
+      'MongoDB',
+      'Socket.io',
+      'Cloudinary',
+    ],
     links: {
       preview: 'https://krishisakhi-alpha.vercel.app/',
       github: 'https://github.com/VPbanna123/krishisakhi',
@@ -49,7 +52,14 @@ export const projectsData = [
     title: 'Guardian AI: Cyberbullying Detection',
     description:
       'Privacy-first real-time cyberbullying detection system using fine-tuned RoBERTa model (90%+ F1-score). Features on-device inference, multi-threshold alert logic, parent dashboard, and real-time chat with Socket.io.',
-    technologies: ['FastAPI', 'React', 'RoBERTa', 'Socket.io', 'MongoDB', 'Python'],
+    technologies: [
+      'FastAPI',
+      'React',
+      'RoBERTa',
+      'Socket.io',
+      'MongoDB',
+      'Python',
+    ],
     links: {
       preview: '',
       github: 'https://github.com/VPbanna123/cyber-guard-chat',
@@ -61,7 +71,14 @@ export const projectsData = [
     title: 'AI-Lecture Generator',
     description:
       'AI-powered educational video system generating dynamic slides, Manim animations, and multi-language voice narration using Gemini AI and Sarvam AI.',
-    technologies: ['FastAPI', 'React', 'Python', 'Gemini AI', 'Sarvam AI', 'Manim'],
+    technologies: [
+      'FastAPI',
+      'React',
+      'Python',
+      'Gemini AI',
+      'Sarvam AI',
+      'Manim',
+    ],
     links: {
       preview: '',
       github: 'https://github.com/VPbanna123/ai-lecture-generator',

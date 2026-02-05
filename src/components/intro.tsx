@@ -54,8 +54,9 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        A full-stack developer from India, studying Data Science &amp; AI at IIIT Dharwad.
-        I&#39;m passionate about building web &amp; mobile applications using React, Next.js, Node.js, and React Native.
+        A full-stack developer from India, studying Data Science &amp; AI at
+        IIIT Dharwad. I&#39;m passionate about building web &amp; mobile
+        applications using React, Next.js, Node.js, and React Native.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
