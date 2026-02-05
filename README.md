@@ -12,9 +12,13 @@ $ npm install
 ```
 Then create .env file:
 ```bash
-SITE_URL='https://example.com' ## Required to generate sitemap by next-sitemap 
-RESEND_API_KEY='your_resend_api_key' ## Required to send email by resend
+SITE_URL='http://localhost:3000' ## Required for sitemap generation
+RESEND_API_KEY='your_resend_api_key' ## Optional: Required to send email via resend
+GOOGLE_SITE_VERIFICATION_ID='your_verification_id' ## Optional: For Google Search Console
 ```
+
+**For Vercel Deployment:**
+Set the `SITE_URL` environment variable in your Vercel project settings to your production domain (e.g., `https://yourdomain.com`). If not set, it will automatically use your Vercel deployment URL.
 
 Then start the project on the local server with the command:
 

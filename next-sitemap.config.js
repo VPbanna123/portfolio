@@ -1,5 +1,9 @@
+/** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || '',
+  siteUrl: process.env.SITE_URL || 
+    (process.env.NEXT_PUBLIC_VERCEL_URL 
+      ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+      : 'https://example.com'),
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   robotsTxtOptions: {
