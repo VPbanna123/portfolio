@@ -13,7 +13,7 @@
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: `'https://vijaypal.me'`,
+  siteUrl: 'https://vijaypal.me',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   robotsTxtOptions: {
