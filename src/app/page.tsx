@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+
 import { About } from '@/components/about';
 import { Contact } from '@/components/contact';
 import { Experience } from '@/components/experience';
@@ -8,6 +10,12 @@ import { Projects } from '@/components/projects';
 import { SectionDivider } from '@/components/section-divider';
 import { TechnicalSkills } from '@/components/technical-skills';
 import { ThemeToggle } from '@/components/theme-toggle';
+
+export const metadata: Metadata = {
+  title: 'Vijaypal Singh – Full Stack Developer & React Native App Developer',
+  description:
+    'Official portfolio of Vijaypal Singh, a Full Stack Developer and React Native App Developer. Projects, skills, experience, and contact details.',
+};
 
 const HomePage = async () => {
   return (

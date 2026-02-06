@@ -8,8 +8,9 @@ export const env = createEnv({
     RESEND_API_KEY: z.string().min(1).optional(),
   },
   runtimeEnv: {
-    SITE_URL: process.env.SITE_URL || 
-      (process.env.NEXT_PUBLIC_VERCEL_URL 
+    SITE_URL:
+      process.env.SITE_URL ||
+      (process.env.NEXT_PUBLIC_VERCEL_URL
         ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
         : 'http://localhost:3000'),
     GOOGLE_SITE_VERIFICATION_ID: process.env.GOOGLE_SITE_VERIFICATION_ID,

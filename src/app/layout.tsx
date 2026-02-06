@@ -33,6 +33,22 @@ const RootLayout = ({ children }: PropsWithChildren) => {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn('min-h-screen font-sans', fonts)}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Person',
+              name: 'Vijaypal Singh',
+              url: 'https://vijaypal.me',
+              jobTitle: 'Full Stack Developer & React Native App Developer',
+              sameAs: [
+                'https://github.com/VPbanna123',
+                'https://www.linkedin.com/in/vijaypal-singh-rathore-331106268',
+              ],
+            }),
+          }}
+        />
         <ThemeProvider attribute="class">
           <ActiveSectionProvider>
             {children}

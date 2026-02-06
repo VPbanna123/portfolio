@@ -35,7 +35,7 @@ export const Intro = () => {
           <span className="font-mono text-sm">Available for work!</span>
         </Link>
       </motion.div>
-      <motion.h1
+      {/* <motion.h1
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
@@ -45,6 +45,17 @@ export const Intro = () => {
           Full-Stack
         </span>{' '}
         developer building modern apps.
+      </motion.h1> */}
+      <motion.h1
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
+      >
+        Vijaypal Singh –{' '}
+        <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
+          Full-Stack Developer
+        </span>{' '}
+        &amp; React Native App Developer
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -54,9 +65,10 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        A full-stack developer from India, studying Data Science &amp; AI at
-        IIIT Dharwad. I&#39;m passionate about building web &amp; mobile
-        applications using React, Next.js, Node.js, and React Native.
+        I&#39;m Vijaypal Singh Rathore a full-stack developer from India,
+        studying Data Science &amp; AI at IIIT Dharwad. I&#39;m passionate about
+        building web &amp; mobile applications using React, Next.js, Node.js,
+        and React Native.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -64,16 +76,16 @@ export const Intro = () => {
         transition={{
           delay: 0.1,
         }}
-        className="flex flex-row gap-2"
+        className="flex w-full flex-wrap justify-center gap-2"
       >
         <Button asChild size="lg">
           <Link href="#contact">
             Get in touch <Icons.arrowRight className="ml-2 size-4" />
           </Link>
         </Button>
-        <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
+        <Button variant="outline" size="lg" asChild>
           <a href="Myresume.pdf" download>
-            Download CV <Icons.download className="ml-2 size-4" />
+            Download Resume <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
         <Button variant="outline" size="icon" asChild>
