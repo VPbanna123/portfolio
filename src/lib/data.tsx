@@ -32,18 +32,24 @@ export const projectsData = [
     image: '/images/krishisakhi.png',
     title: 'KrishiSakhi',
     description:
-      'A full-stack agricultural platform with cross-platform web (Next.js) and mobile app (React Native/Expo), featuring real-time chat, AI chatbot, e-commerce marketplace, and government schemes checker.',
+      'A full-stack agricultural platform with cross-platform web (Next.js) and mobile app (React Native/Expo), featuring real-time chat, AI chatbot, e-commerce marketplace, and government schemes checker. Implements JWT authentication with access/refresh token rotation and email verification for security.',
     technologies: [
       'Next.js',
       'React Native',
+      'Expo',
       'Node.js',
-      'MongoDB',
+      'Express.js',
+      'MongoDB Atlas',
       'Socket.io',
+      'JWT Auth',
       'Cloudinary',
+      'LocationIQ',
+      'Google Gemini API',
+      'Redux',
     ],
     links: {
       preview: 'https://krishisakhi-alpha.vercel.app/',
-      github: 'https://github.com/VPbanna123/krishisakhi',
+      github: 'https://krishisakhi-alpha.vercel.app/',
       githubApi: 'https://api.github.com/repos/VPbanna123/krishisakhi',
     },
   },
@@ -53,11 +59,13 @@ export const projectsData = [
     description:
       'Privacy-first real-time cyberbullying detection system using fine-tuned RoBERTa model (90%+ F1-score). Features on-device inference, multi-threshold alert logic, parent dashboard, and real-time chat with Socket.io.',
     technologies: [
+      'JWT Auth',
+      'Socket.io',
       'FastAPI',
       'React',
       'RoBERTa',
-      'Socket.io',
       'MongoDB',
+      'Appwrite',
       'Python',
     ],
     links: {
@@ -223,8 +231,8 @@ export const technicalSkillsData = [
     skills: [
       'Google Gemini API',
       'Sarvam AI',
-      'Manim',
-      'MoviePy',
+      'Whisper AI',
+      'HuggingFace Transformers',
       'TensorFlow (basics)',
     ],
   },
